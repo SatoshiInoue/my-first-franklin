@@ -3,20 +3,23 @@
 main .hero-container > div {
   max-width: unset;
 }
-  
+
 main .hero-container {
   padding: 0;
 }
-  
+
 main .hero {
   position: relative;
   padding: 32px;
   min-height: 300px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 main .hero h1 {
   max-width: 1200px;
-  margin-left: auto;
+  margin-left: 2rem;
   margin-right: auto;
   color: white;
 }
