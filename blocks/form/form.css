@@ -48,7 +48,7 @@ main .form label {
 }
 
 main .form label.required::after {
-  content: "*";
+  content: '*';
   color: var(--color-black);
   padding-left: var(--spacing-xxxs);
 }
@@ -119,7 +119,7 @@ main .form button {
   main .form {
     padding: var(--spacing-ml);
   }
-  
+
   main .form .field-wrapper {
     display: flex;
   }
