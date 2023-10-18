@@ -1,0 +1,20 @@
+{
+    "class": "hello block",
+    "data-block-name": "hello",
+    "data-block-status": "loading",
+    "children": [
+        {
+            "children": [
+                {
+                    "textContent": "Hi"
+                },
+                {
+                    "textContent": "friend"
+                }
+            ]
+        },
+        {
+            "textContent": "Holla"
+        }
+    ]
+}
