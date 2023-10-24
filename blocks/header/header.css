@@ -1,6 +1,7 @@
 /* header and nav layout */
 header .nav-wrapper {
   background-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
   color: #fff;
   width: 100%;
   z-index: 2;
@@ -9,6 +10,7 @@ header .nav-wrapper {
 
 header.not-top .nav-wrapper {
   background-color: var(--background-color);
+  background-image: none;
   color: var(--text-color);
 }
 
