@@ -14,10 +14,10 @@
   /* colors */
   --link-color: #003e9b;
   --link-hover-color: #136ff6;
-  --background-color: #eb1000;
+  --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
-  --text-color: #fff;
+  --text-color: #2c2c2c;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -175,7 +175,7 @@ button {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  color: var(--text-color);
+  color: #fff;
   background-color: var(--link-color);
   margin: 16px 0;
   white-space: nowrap;
@@ -203,6 +203,10 @@ button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
   color: var(--text-color);
+}
+
+main {
+  margin-top: -64px;
 }
 
 main input {
@@ -258,7 +262,7 @@ main img {
 }
 
 main .section {
-  padding: 64px 16px;
+  /* padding: 64px 16px; */
 }
 
 @media (min-width: 600px) {
