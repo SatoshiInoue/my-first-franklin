@@ -19,6 +19,14 @@
   --highlight-background-color: #ccc;
   --text-color: #2c2c2c;
 
+  /* background colors */
+  --bg-color-lightgrey: #f8f8f8;
+  --bg-color-grey: #e8e8e8;
+  --bg-color-grey-2: #d6d6d6;
+  --overlay-curtain-bg-color: rgb(0 0 0 / 60%);
+  --overlay-curtain-bg-filter: blur(0.05em);
+  --code-bg-color: #f1f1f1;
+
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
   --heading-font-family: var(--body-font-family);
@@ -40,6 +48,18 @@
 
   /* nav height */
   --nav-height: 64px;
+
+  /* Spacing (Consonant) */
+  --spacing-xxxs: 4px;
+  --spacing-xxs: 8px;
+  --spacing-xs: 16px;
+  --spacing-s: 24px;
+  --spacing-m: 32px;
+  --spacing-ml: 40px;
+  --spacing-l: 48px;
+  --spacing-xl: 56px;
+  --spacing-xxl: 80px;
+  --spacing-xxxl: 104px;
 }
 
 @font-face {
@@ -262,7 +282,7 @@ main img {
 }
 
 main .section {
-  /* padding: 64px 16px; */
+  padding: 32px 16px;
 }
 
 @media (min-width: 600px) {
