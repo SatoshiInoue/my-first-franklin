@@ -15,6 +15,11 @@ main .hero {
   height: 100vh;
   display: flex;
   align-items: center;
+  background-image: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.8),
+    transparent
+  );
 }
 
 main .hero h1 {
