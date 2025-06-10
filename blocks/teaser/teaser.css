@@ -50,6 +50,9 @@
   color: #202020;
 }
 
+.teaser.red {
+  color: #fff;
+}
 .teaser.red > div > div:last-child {
   background-color: red;
 }
